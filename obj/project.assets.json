@@ -8,32 +8,24 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Student_05\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\elvix\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student_05\\Documents\\Lab02-Magdeev\\Lab02-Magdeev.csproj",
+      "projectUniqueName": "C:\\Users\\elvix\\Documents\\Lab02-Magdeev\\Lab02-Magdeev.csproj",
       "projectName": "Lab02-Magdeev",
-      "projectPath": "C:\\Users\\Student_05\\Documents\\Lab02-Magdeev\\Lab02-Magdeev.csproj",
-      "packagesPath": "C:\\Users\\Student_05\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Student_05\\Documents\\Lab02-Magdeev\\obj\\",
+      "projectPath": "C:\\Users\\elvix\\Documents\\Lab02-Magdeev\\Lab02-Magdeev.csproj",
+      "packagesPath": "C:\\Users\\elvix\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elvix\\Documents\\Lab02-Magdeev\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Student_05\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\elvix\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
