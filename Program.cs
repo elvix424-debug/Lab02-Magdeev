@@ -106,11 +106,19 @@
 // Console.WriteLine($"Любимая буква: {loveChar}");
 
 
-//Задание 1. КалькуляторИМТ ★
-Console.Write("Введите рост в метрах: ");
-double height = double.Parse(Console.ReadLine());
-Console.Write("Введите вес: ");
-double weight = double.Parse(Console.ReadLine());
+// //Задание 1. КалькуляторИМТ ★
+// Console.Write("Введите рост в метрах: ");
+// double height = double.Parse(Console.ReadLine());
+// Console.Write("Введите вес: ");
+// double weight = double.Parse(Console.ReadLine());
 
-double IMT = weight / (height * height);
-Console.WriteLine($"ИМТ: {IMT:F2}");
+// double IMT = weight / (height * height);
+// Console.WriteLine($"ИМТ: {IMT:F2}");
+
+
+Console.Write("Введите фамилию: ");
+string lastName = Console.ReadLine();
+Console.Write("Введите имя: ");
+string name = Console.ReadLine();
+char initial = name[0];
+Console.WriteLine($"{lastName} {initial}.");
