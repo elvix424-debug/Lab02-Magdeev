@@ -116,9 +116,28 @@
 // Console.WriteLine($"ИМТ: {IMT:F2}");
 
 
-Console.Write("Введите фамилию: ");
-string lastName = Console.ReadLine();
-Console.Write("Введите имя: ");
-string name = Console.ReadLine();
-char initial = name[0];
-Console.WriteLine($"{lastName} {initial}.");
+// Console.Write("Введите фамилию: ");
+// string lastName = Console.ReadLine();
+// Console.Write("Введите имя: ");
+// string name = Console.ReadLine();
+// char initial = name[0];
+// Console.WriteLine($"{lastName} {initial}.");
+
+
+//ЦЕЛОЕ ЧИСЛО
+Console.Write("Введите целое число: ");
+string input1 = Console.ReadLine();
+bool success1 = int.TryParse(input1, out int number);
+Console.WriteLine($"Успешно: {success1}, значение: {number}");
+
+//ДРОБНОЕ ЧИСЛО
+Console.Write("Введите дробное число: ");
+string input2 = Console.ReadLine();
+bool success2 = double.TryParse(input2, out double fraction);
+Console.WriteLine($"Успешно: {success2}, значение: {fraction}");
+
+//ДАТА
+Console.Write("Введите дату (дд.мм.гггг): ");
+string input3 = Console.ReadLine();
+bool success3 = DateTime.TryParse(input3, out DateTime date);
+Console.WriteLine($"Успешно: {success3}, значение: {date:dd.MM.yyyy}");
